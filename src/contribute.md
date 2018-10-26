@@ -1,6 +1,5 @@
 # How to Contribute:
 
-
 We use the pull-request model, see [GitHub's help on pull-request](https://help.github.com/articles/using-pull-requests).
 
 In quick summary, you will:
@@ -17,11 +16,10 @@ _Begin to fix the problem, test, make your commits, push your commits, then make
 
 # Projects:
 
+All of our active repositories can be found on [O.S.C.A`s GitHub organization](https://github.com/oscommunityafrica).
 
-All of our active repositories can be found on our [GitHub O.S.C.A`organization](https://github.com/oscommunityafrica).
 
-
-### Checklist - anyone
+### Checklist - Contributors
 
 * [ ] make a fork and clone it,
 
@@ -33,7 +31,7 @@ All of our active repositories can be found on our [GitHub O.S.C.A`organization]
 
 * [ ] make a branch, push your commits, and a pull request, see [Workflow](##workflow) below.
 
-### Checklist - maintainer
+### Checklist - Maintainers
 
 * [ ] look for commits _after_ any of these, in either;
 
@@ -49,7 +47,6 @@ All of our active repositories can be found on our [GitHub O.S.C.A`organization]
 
 ## Workflow
 
-
 ### Open an Issue
 
 We track issues in the GitHub Issues tab of repositories.
@@ -64,10 +61,10 @@ See [complete help in GitHub](https://help.github.com/articles/fork-a-repo).
 ### Cloning
 
 You should clone your fork. This step is needed only once.
-Using [sugar](https://github.com/oscommunityafrica/docs) as example;
+Using [docs](https://github.com/oscommunityafrica/docs) as example;
 
 ```
-git clone git@github.com:YOUR-NAME/sugar.git
+git clone https://github.com/<username>/docs.git
 cd docs
 git remote add upstream https://github.com/oscommunityafrica.git
 git fetch upstream
@@ -85,7 +82,7 @@ Your BRANCH-NAME can be anything, other than master.  The scope is your forked r
 
 ### Making commits
 
-Change files, and commit.  Commit messages are kept by git, and are used later when problems are being solved.  When writing a commit message;
+Change files, and commit. Commit messages are kept by git, and are used later when problems are being solved. When writing a commit message;
 
 1. start with a one line summary of the change;
 2. leave a blank line after the summary;
@@ -169,7 +166,7 @@ So instead of merging directly with the "merge" button on GitHub, we may do a lo
 
 See [GitHub help on merging a pull-request](https://help.github.com/articles/merging-a-pull-request).
 
-The GitHub page for the pull-request will provide you the right commands to do the local merge, similar to the following.
+The GitHub page for the pull-request will provide you with the right commands to do the local merge, similar to the following.
 
 Get the changes from that branch to a new local branch:
 

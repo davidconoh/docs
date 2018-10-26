@@ -2,7 +2,6 @@
 
 Have you found an error in these docs, or want to improve them? Please [contact us](src/contact-us.md) or directly send pull requests to the [GitHub repository](https://github.com/oscommunityafrica/docs).
 
-
 Contributing images
 -------------------
 
